@@ -17,34 +17,27 @@ public class Vare {
 	}
 	
 	public int getVarenr() {
-		
-		throw new TODO("getVarenr");
-		
+		return this.varenr;
 	}
 	
 	public void setVarenr(int varenr) {
-		
-		throw new TODO("setVarenr");
+		this.varenr = varenr;
 	}
 	
 	public String getNavn() {
-		
-		throw new TODO("getNavn");
+		return this.navn;
 	}
 	
 	public void setNavn(String navn) {
-		
-		throw new TODO("setNavn");
+		this.navn = navn;
 	}
 	
 	public double getPris() {
-		
-		throw new TODO("getPris");
+		return this.pris;
 	}
 	
 	public void setPris(double pris) {
-		
-		throw new TODO("setPris");
+		this.pris = pris;
 	}
 	
 	public double beregnMoms() {
